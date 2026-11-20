@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casen 2024 y datos con enfoque de derechos humanos</title>
+  <meta name="description" content="Página del Taller Sumativo 4 de ETI195: la encuesta Casen 2024, una visualización de los talleres previos y su evaluación desde el enfoque de derechos humanos para los datos.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="kicker">ETI195 · Ética para Ciencia de Datos y Estadística · Taller sumativo 4</p>
+      <h1>Casen 2024 y datos con enfoque de derechos humanos</h1>
+    </header>
+
+    <main>
+      <section aria-labelledby="por-que">
+        <h2 id="por-que">Por qué Casen</h2>
+        <p>La encuesta Casen es diseñada y coordinada por el Ministerio de Desarrollo Social y Familia, a través de su observatorio social, con el objetivo de medir la pobreza, la pobreza multidimensional y la desigualdad en Chile. A través de este instrumento, el Estado recolecta datos sobre las condiciones socioeconómicas de la población en áreas críticas como salud, trabajo, educación y vivienda para el diseño de políticas públicas.</p>
+        <p>Los datos de este dataset corresponden a la encuesta 2024, implementada entre fines de ese año e inicios de 2025. La muestra abarca 78.654 hogares distribuidos en todas las regiones del país, buscando representatividad nacional tanto en zonas urbanas como rurales (Ministerio de Desarrollo Social y Familia [MDSF], 2026).</p>
+      </section>
+
+      <section aria-labelledby="visualizacion">
+        <h2 id="visualizacion">Pobreza multidimensional según pertenencia a pueblos indígenas</h2>
+        <figure>
+          <img src="img/pobreza-pueblo-indigena.png" width="984" height="584"
+               alt="Gráfico de barras agrupadas. Eje horizontal: pertenencia a pueblo indígena, con las categorías No indígena e Indígena. Eje vertical: frecuencia de observaciones. En la categoría No indígena hay unas 152.000 observaciones fuera de pobreza y unas 30.000 en pobreza multidimensional. En la categoría Indígena hay unas 22.600 fuera de pobreza y unas 7.000 en pobreza multidimensional.">
+          <figcaption>Gráfico del Taller 1, elaborado con el dataset Casen 2024 del curso (212.471 registros). En ese dataset, 23,8 % de los registros de personas indígenas y 16,6 % de los de personas no indígenas están en pobreza multidimensional (cálculo propio sobre el dataset).</figcaption>
+        </figure>
+      </section>
+
+      <section aria-labelledby="explicacion">
+        <h2 id="explicacion">Qué muestra el gráfico</h2>
+        <p>El tercero analiza el cruce entre la pertenencia a pueblos originarios y la pobreza multidimensional. La visualización nos permite observar que la gran mayoría de la muestra se concentra en la categoría de población no indígena, esta cuenta con altos volúmenes fuera de la pobreza y una proporción menor en situación de carencia, mientras que el segmento de población indígena muestra una distribución donde las proporciones de pobreza se mantienen presentes de manera significativa respecto al total de su grupo registrado.</p>
+      </section>
+
+      <section aria-labelledby="conclusion">
+        <h2 id="conclusion">Conclusión</h2>
+        <p>CASEN cumple solo en parte con el enfoque de derechos humanos para los datos (United Nations Office of the High Commissioner for Human Rights [OHCHR], 2018). Tiene un buen estándar de transparencia, cumple a medias cuatro principios (desagregación, autoidentificación, privacidad y rendición de cuentas) y no cumple el de participación.</p>
+        <p>El análisis completo está en el <a href="https://github.com/Mxrtmlk/Talleres-tica/blob/main/Taller_sumativo_4.ipynb">notebook del Taller sumativo 4</a>.</p>
+      </section>
+
+      <section class="refs" aria-labelledby="referencias">
+        <h2 id="referencias">Referencias</h2>
+        <p>Ministerio de Desarrollo Social y Familia. (2026). <em>Ficha técnica Casen 2024</em>. División Observatorio Social. <a href="https://observatorio.ministeriodesarrollosocial.gob.cl/storage/docs/casen/2024/Ficha_tecnica_Casen_2024.pdf">https://observatorio.ministeriodesarrollosocial.gob.cl/storage/docs/casen/2024/Ficha_tecnica_Casen_2024.pdf</a></p>
+        <p>United Nations Office of the High Commissioner for Human Rights. (2018). <em>A human rights-based approach to data: Leaving no one behind in the 2030 agenda for sustainable development</em>. <a href="https://www.ohchr.org/en/documents/tools-and-resources/human-rights-based-approach-data-leaving-no-one-behind-2030-agenda">https://www.ohchr.org/en/documents/tools-and-resources/human-rights-based-approach-data-leaving-no-one-behind-2030-agenda</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Repositorio: <a href="https://github.com/Mxrtmlk/Talleres-tica">github.com/Mxrtmlk/Talleres-tica</a></p>
+    </footer>
+  </div>
+</body>
+</html>
