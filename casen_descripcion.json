@@ -1,0 +1,190 @@
+{
+    "meta": {
+        "num_tuples": 212471,
+        "num_attributes": 7,
+        "num_attributes_in_BN": 7,
+        "all_attributes": [
+            "edad",
+            "sexo",
+            "area",
+            "pobreza_multi",
+            "r3",
+            "r1a",
+            "trans"
+        ],
+        "candidate_keys": [],
+        "non_categorical_string_attributes": [],
+        "attributes_in_BN": [
+            "edad",
+            "sexo",
+            "area",
+            "pobreza_multi",
+            "r3",
+            "r1a",
+            "trans"
+        ]
+    },
+    "attribute_description": {
+        "edad": {
+            "name": "edad",
+            "data_type": "Integer",
+            "is_categorical": false,
+            "is_candidate_key": false,
+            "min": 0,
+            "max": 107,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                0.0,
+                5.35,
+                10.7,
+                16.049999999999997,
+                21.4,
+                26.75,
+                32.099999999999994,
+                37.449999999999996,
+                42.8,
+                48.15,
+                53.5,
+                58.849999999999994,
+                64.19999999999999,
+                69.55,
+                74.89999999999999,
+                80.25,
+                85.6,
+                90.94999999999999,
+                96.3,
+                101.64999999999999
+            ],
+            "distribution_probabilities": [
+                0.05206418981815468,
+                0.062099511760431284,
+                0.0820627018497264,
+                0.06622999340512035,
+                0.06835720730744385,
+                0.08168796611682656,
+                0.07023557178378509,
+                0.06306846460586793,
+                0.07142629962612232,
+                0.06456893573663233,
+                0.06655727891617177,
+                0.0796005964789696,
+                0.056800535236472646,
+                0.043313850958999804,
+                0.03728417196277053,
+                0.018803540645824422,
+                0.01028592228283986,
+                0.004724921395430332,
+                0.0008283401124103603,
+                0.0
+            ]
+        },
+        "sexo": {
+            "name": "sexo",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 5,
+            "max": 6,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "Hombre",
+                "Mujer"
+            ],
+            "distribution_probabilities": [
+                0.47463961366740537,
+                0.5253603863325946
+            ]
+        },
+        "area": {
+            "name": "area",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 5,
+            "max": 6,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "Rural",
+                "Urbano"
+            ],
+            "distribution_probabilities": [
+                0.17308142632793566,
+                0.8269185736720644
+            ]
+        },
+        "pobreza_multi": {
+            "name": "pobreza_multi",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 5,
+            "max": 8,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "No pobre",
+                "Pobre"
+            ],
+            "distribution_probabilities": [
+                0.823498143485476,
+                0.176501856514524
+            ]
+        },
+        "r3": {
+            "name": "r3",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 8,
+            "max": 11,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "Ind\u00edgena",
+                "No ind\u00edgena"
+            ],
+            "distribution_probabilities": [
+                0.13959438333159743,
+                0.8604056166684025
+            ]
+        },
+        "r1a": {
+            "name": "r1a",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 5,
+            "max": 17,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "Chile",
+                "Chile y otro pa\u00eds",
+                "Extranjero"
+            ],
+            "distribution_probabilities": [
+                0.9312851137573985,
+                0.010834405144655036,
+                0.05788048109794647
+            ]
+        },
+        "trans": {
+            "name": "trans",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 2,
+            "max": 21,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "No",
+                "No sabe",
+                "Prefiere no responder",
+                "S\u00ed"
+            ],
+            "distribution_probabilities": [
+                0.9992689352359633,
+                0.00012754916469891444,
+                0.0002906870463738251,
+                0.00031282855296417344
+            ]
+        }
+    }
+}
